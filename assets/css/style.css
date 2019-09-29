@@ -1,8 +1,8 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Interior
-    Description: Interior - Interior Design and Architecture Bootstrap Template
-    Author: UIdeck
+    Template For: Jdans Construction Ltd
+    Description: Jdans Construction - Construction and Real Estate template
+    Author: NetBrainers
     Version: 1.0
 
 -----------------------------------------------------------------------------------
@@ -19,9 +19,14 @@
 /*===========================
     1. COMMON css 
 ===========================*/
+
+/* External CSS
+=================== */
 @import url("https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700|Hind:400,500,600,700|Quattrocento:400,700");
 @import url('https://fonts.googleapis.com/css?family=Mansalva|Nanum+Gothic&display=swap');
 @import 'form.css';
+@import 'lightbox.css';
+
 body {
   font-family: 'Hind', sans-serif;
   /* font-family: 'Nanum Gothic', sans-serif; */
