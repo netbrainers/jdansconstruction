@@ -141,7 +141,7 @@
             <div class="underline">
             </div>
             <h3 class="form-sub-title">Fill the Form Below to Get A Quotation</h3>
-            <form action="#" id="contact_form" data-netlify-recaptcha="true" data-toggle="validator" name="quotation" method="POST" data-netlify="true">
+            <form action="#" id="contact_form" data-netlify-recaptcha="true" name="quotation" method="POST" data-netlify="true">
                 <div class="name">
                     <label for="name"></label>
                     <input type="text" placeholder="My name is" name="name" id="name_input" required>
@@ -714,7 +714,9 @@
                                         <textarea placeholder="Your Mesaage" name="message" data-error="Please,leave us a message." required="required"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div> <!-- single form -->
-                                    <div data-netlify-recaptcha="true"></div>
+                                    <div class="row">
+                                        <div data-netlify-recaptcha="true"></div>
+                                    </div>
                                 </div>
                                 <p class="form-message"></p>
                                 <div class="col-md-12">
