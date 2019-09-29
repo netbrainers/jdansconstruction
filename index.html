@@ -85,6 +85,13 @@
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#contact">Contact</a>
                                     </li>
+                                    <li>
+                                        <div itemscope itemtype="http://schema.org/LocalBusiness" class="d-lg-none d-md-none d-sm-none phone-contact-hide">
+                                            <span itemprop="telephone">
+                                                <a class="main-btn call-btn" href="tel:+2347068445346"><i class="lni-phone"></i>+234 7068445346</a>
+                                            </span>
+                                        </div>
+                                    </li>
                                 </ul> <!-- navbar nav -->
                             </div>
                             <div itemscope itemtype="http://schema.org/LocalBusiness" class="navbar-btn ml-20 d-none d-sm-block">
@@ -134,7 +141,7 @@
             <div class="underline">
             </div>
             <h3 class="form-sub-title">Fill the Form Below to Get A Quotation</h3>
-            <form action="#" id="contact_form" name="quotation" method="POST" data-netlify="true">
+            <form action="#" id="contact_form" data-netlify-recaptcha="true" data-toggle="validator" name="quotation" method="POST" data-netlify="true">
                 <div class="name">
                     <label for="name"></label>
                     <input type="text" placeholder="My name is" name="name" id="name_input" required>
@@ -160,6 +167,7 @@
                     <label for="message"></label>
                     <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
                 </div>
+                <div data-netlify-recaptcha="true"></div>
                 <div class="submit">
                     <input type="submit" value="Send Message" id="form_button" />
                 </div>
@@ -820,7 +828,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright text-center">
-                            <p class="">all right reserve &copy; 2019 <a href="#home" class="">Jdans Construction</a>
+                            <p class="">all right reserved &copy; 2019 Jdans Construction
                             <span id="copyrigt-divider-1"></span>
                             <span id="copyrigt-divider-2"></span>
                             Web Application Develop by <a href="#" target="_blank">netbrainers <i class="lni-share"></i></a>
