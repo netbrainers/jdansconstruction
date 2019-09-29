@@ -1455,12 +1455,17 @@ background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, F
 
 @media (max-width: 400px) {
   .footer-info,
-  .office-info {
+  .office-info,
+  .footer-logo {
     width: auto;
     padding: 50px 10px;
     margin: 0 auto;
   }
 
+  .netlify-recaptcha {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .copyright-area {
