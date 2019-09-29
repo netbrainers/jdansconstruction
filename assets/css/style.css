@@ -1464,7 +1464,8 @@ background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, F
 
   .netlify-recaptcha {
     width: 100%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
