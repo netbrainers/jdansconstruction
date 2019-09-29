@@ -166,8 +166,14 @@
                 <div class="message">
                     <label for="message"></label>
                     <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+                    <!-- Netlify file upload -->
+                    <div class="upload-file">
+                        <label for="fileUpload">File Upload</label>
+                        <input type="file" value="max.size 1MB" name="fileUpload">
+                    </div>
+                    <!-- Netlify Recapion -->
+                    <div data-netlify-recaptcha="true"></div>
                 </div>
-                <div data-netlify-recaptcha="true"></div>
                 <div class="submit">
                     <input type="submit" value="Send Message" id="form_button" />
                 </div>
