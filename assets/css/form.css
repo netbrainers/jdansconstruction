@@ -211,9 +211,9 @@
 
 @media screen and (max-width: 420px) {
   #container h1 {
-    font-size: 1rem;
+    font-size: .8rem;
   }
-  
+
   #container .icon {
     height: 35px;
     width: 35px;
@@ -282,6 +282,12 @@
   letter-spacing: 1px;
   font-size: 1.3rem;
   padding: 0 5px;
+}
+
+@media (max-width: 420px) {
+  .form-sub-title {
+    font-size: 1.1rem;
+  }
 }
 
 #animatedModal .modal-content,
