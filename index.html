@@ -31,16 +31,6 @@
     <!--====== Style css ======-->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149612822-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-149612822-1');
-    </script>
-
 </head>
 
 <body>
@@ -163,7 +153,10 @@
             <div class="underline">
             </div>
             <h3 class="form-sub-title">Fill the Form Below to Get A Quotation</h3>
-            <form action="#" id="contact_form" name="quotation" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <form action="#" id="contact_form" name="quotation" method="POST"  netlify-honeypot="bot-field" data-netlify="true">
+                <p class="hidden">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                </p>
                 <div class="name">
                     <label for="name"></label>
                     <input type="text" placeholder="My name is" name="name" id="name_input" required>
@@ -916,6 +909,16 @@
 
     <!--====== App js ======-->
     <script src="assets/js/app.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149612822-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-149612822-1');
+    </script>
 
 </body>
 
