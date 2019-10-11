@@ -137,10 +137,6 @@
                     </div>
                 </div> <!-- row -->
             </div> <!-- container -->
-            <!-- <div class="banner-image bg_cover" style="background-image: linear-gradient(
-                rgba(54, 53, 63, 0.6), 
-                rgba(24, 20, 34, 0.6)
-              ), url(assets/images/banner/banner-img.jpg)"></div> -->
                 <div class="crossfade">
                     <figure class="img-filter"></figure>
                     <figure class="img-filter"></figure>
@@ -167,7 +163,7 @@
             <div class="underline">
             </div>
             <h3 class="form-sub-title">Fill the Form Below to Get A Quotation</h3>
-            <form action="#" id="contact_form" name="quotation" method="POST" data-netlify="true">
+            <form action="#" id="contact_form" name="quotation" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                 <div class="name">
                     <label for="name"></label>
                     <input type="text" placeholder="My name is" name="name" id="name_input" required>
@@ -196,6 +192,11 @@
                     <div class="upload-file mt-20 mb-20">
                         <label for="fileUpload">File Upload</label>
                         <input type="file" value="max.size 1MB" name="fileUpload">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container">
+                        <div class="netlify-recaptcha mt-20" data-netlify-recaptcha="true"></div>
                     </div>
                 </div>
                 <div class="submit">

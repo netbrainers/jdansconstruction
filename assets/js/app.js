@@ -74,4 +74,5 @@ $("#contact_form").submit(function(e) {
     $.post($form.attr("action"), $form.serialize()).then(function() {
       alert("Thank you! You'll get a feedback from us shortly.");
     });
+    document.querySelector('#contact_form').reset();
   });
